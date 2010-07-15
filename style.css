@@ -1,0 +1,338 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent url(images/bodyBG.png) no-repeat scroll;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  color: #333246;
+}
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: #0000FF;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 2.4em;
+}
+h3 {
+  font-size: 1.6em;
+}
+p, ul, ol {
+  margin-top: 0;
+  line-height: 180%;
+}
+ul, ol {
+}
+a {
+  text-decoration: none;
+  color: #0F6FA7;
+}
+a:hover {
+}
+#wrapper {
+  background: #ffffff repeat scroll 0%;
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+}
+#header {
+  margin: 0 auto;
+  background: #0000FF;
+  width: 940px;
+  height: 148px;
+}
+#ieee_logo {
+  margin: 0;
+  background: transparent url(images/ieeeLogo.png) no-repeat scroll 10px 40px;
+  float: right;
+  padding-top:50px;
+  padding-right: 250px;  
+  height: 90px;
+  color: #000000;
+}
+#logo {
+  margin: 0px;
+  background: transparent url(images/witsLogo.gif) no-repeat scroll 40px 10px;
+  float: left;
+  padding-top: 50px;
+  height: 90px;
+  color: #000000;
+}
+#logo h1, #logo p {
+  margin: 0;
+  padding: 0;
+}
+#logo h1 {
+  float: left;
+  padding-left: 120px;
+  letter-spacing: -1px;
+  text-transform: normal;
+  font-size: 2.5em;
+}
+#logo p {
+  margin: 0;
+  padding: 26px 0 0 10px;
+  float: left;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: normal;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: italic;
+  color: #5e4e38;
+}
+#logo p a {
+  color: #FFFFFF;
+}
+#logo a {
+  border:  none;
+  background: transparent none repeat scroll 0%;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+#search {
+  border-bottom: 4px solid #ffffff;
+  padding: 20px 0px 0px;
+  background: #C3C3F6 none repeat scroll 0%;
+  float: right;
+  width: 280px;
+  height: 60px;
+}
+#search form {
+  margin: 0;
+  padding: 10px 0 0 20px;
+  height: 41px;
+}
+#search fieldset {
+  border:  none;
+  margin: 0;
+  padding: 0;
+}
+#search-text {
+  border:  none;
+  padding: 6px 5px 2px;
+  background: #ffffff none repeat scroll 0%;
+  width: 170px;
+  text-transform: lowercase;
+  font-family: Arial,Helvetica,sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: normal;
+  font-size-adjust: none;
+  font-stretch: normal;
+  color: #464032;
+}
+#search-submit {
+  border: 1px solid #ffffff;
+  background: #0000FF none repeat scroll 0%;
+  width: 50px;
+  height: 23px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #ffffff;
+}
+#menu {
+  margin: 0 auto;
+  padding: 0;
+  background: #0000FF no-repeat scroll left top;
+  width: 940px;
+  height: 36px;
+  border-top: 2px solid #ffffff;
+}
+#menu ul {
+  margin: 0px 0px 0px 10px;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+  line-height: normal;
+}
+#menu li {
+  float: left;
+}
+#menu a {
+  border:  none;
+  padding: 10px 20px 0px;
+  display: block;
+  height: 26px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #ffffff;
+}
+#menu a:hover, #menu .current_page_item a {
+  background: #160FA7 none repeat scroll 0%;
+  text-decoration: none;
+}
+#menu .current_page_item a {
+  background: #F3F3FF none repeat scroll 0%;
+  color: #2a1f0b;
+}
+#page {
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
+}
+#content {
+  padding: 30px 0px 0px;
+  float: right;
+  width: 620px;
+}
+.post {
+  margin-bottom: 15px;
+}
+.post .title {
+  padding: 12px 0 0 0px;
+  margin-bottom: 10px;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+.post .title a {
+  border:  none;
+  color: #160FA7;
+}
+.post .meta {
+  border-bottom: 1px solid #D9D9F8;
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  text-align: left;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.post .meta .date {
+  padding: 3px 0px;
+  float: left;
+  height: 24px;
+  color: #464032;
+}
+.post .meta .posted {
+  padding: 3px 15px;
+  background: #C3C3F6 none repeat scroll 0%;
+  float: right;
+  height: 24px;
+  color: #464032;
+}
+.post .meta a {
+  color: #323246;
+}
+.post .entry {
+  padding: 0px 0px 20px;
+  text-align: justify;
+}
+.links {
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+#sidebar {
+  padding: 0px;
+  float: left;
+  width: 280px;
+  color: #7878s78;
+}
+#sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+#sidebar li {
+  border-right: 1px solid #C3C3F6;
+  margin: 0;
+  padding: 0;
+}
+#sidebar li ul {
+  margin: 0px;
+  padding-bottom: 30px;
+}
+#sidebar li li {
+  border-right: medium none;
+  border-bottom: 1px dotted #C3C3F6;
+  margin: 0px 30px;
+  line-height: 35px;
+}
+#sidebar li li span {
+  padding: 0;
+  display: block;
+  margin-top: -20px;
+  font-size: 11px;
+  font-style: italic;
+}
+#sidebar h2 {
+  background: #C3C3F6 none repeat scroll 0%;
+  padding-left: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  letter-spacing: -0.5px;
+  font-size: 1.8em;
+  color: #464032;
+}
+#sidebar p {
+  margin: 0 0px;
+  padding: 10px 30px 20px;
+  text-align: justify;
+}
+#sidebar a {
+  border:  none;
+  color: #464032;
+}
+#sidebar a:hover {
+  text-decoration: underline;
+  color: #8a8a8a;
+}
+#gallery{
+  text-align: center;
+}
+#calendar {
+}
+#calendar_wrap {
+  padding: 20px;
+}
+#calendar table {
+  width: 100%;
+}
+#calendar tbody td {
+  text-align: center;
+}
+#calendar #next {
+  text-align: right;
+}
+#footer {
+  background: transparent url(images/footer.png) no-repeat scroll 940px;
+  border-top: 4px solid #C3C3F6;
+  margin: 0 auto;
+  padding: 0px 0 15px;
+  width: 940px;
+  height: 50px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+#footer p {
+  margin: 0;
+  padding-top: 20px;
+  line-height: normal;
+  font-size: 7px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #444444;
+}
+#footer a {
+  color: #464032;
+}
+#committee{
+}
+
