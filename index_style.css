@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ffffff none repeat scroll 0%;
+  background: transparent url(images/bg.png) repeat scroll;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 12px;
   color: #333246;
@@ -34,19 +34,20 @@ a {
 a:hover {
 }
 #wrapper {
+  background: #ffffff repeat scroll 0%; 
   margin: 0 auto;
   padding: 0;
   width: 960px;
 }
 #header {
   margin: 0 auto;
-  background: #0000FF;
-  width: 940px;
+  background: transparent url(images/headerBG.png) no-repeat scroll 0 0;
+  width: 960px;
   height: 148px;
 }
 #ieee_logo {
   margin: 0;
-  background: transparent url(images/ieeeLogo.png) no-repeat scroll 10px 40px;
+  background: transparent url(images/ieeeLogo.png) no-repeat scroll 0px 40px;
   float: right;
   padding-top:50px;
   padding-right: 250px;  
@@ -55,7 +56,7 @@ a:hover {
 }
 #logo {
   margin: 0px;
-  background: transparent url(images/witsLogo.jpg) no-repeat scroll 14px 0px;
+  background: transparent url(images/witsLogo.gif) no-repeat scroll 40px 10px;
   float: left;
   padding-top: 50px;
   height: 90px;
@@ -96,17 +97,15 @@ a:hover {
   color: #FFFFFF;
 }
 #search {
-  border-bottom: 4px solid #ffffff;
-  padding: 20px 0px 0px;
-  background: #C3C3F6 none repeat scroll 0%;
+  padding: 6px 30px;
+  background: transparent none repeat scroll 0%;
   float: right;
-  width: 220px;
-  height: 60px;
+  width: 270px;
+  height: 25px;
 }
 #search form {
-  margin: 0;
-  padding: 10px 0 0 20px;
-  height: 41px;
+  padding: 0;
+  margin: 0 auto;
 }
 #search fieldset {
   border:  none;
@@ -115,9 +114,10 @@ a:hover {
 }
 #search-text {
   border:  none;
-  padding: 6px 5px 2px;
+  padding: 0px 0px 0px 0px;
   background: #ffffff none repeat scroll 0%;
-  width: 130px;
+  width: 170px;
+  height: 25px;
   text-transform: lowercase;
   font-family: Arial,Helvetica,sans-serif;
   font-style: normal;
@@ -133,7 +133,7 @@ a:hover {
   border: 1px solid #ffffff;
   background: #0000FF none repeat scroll 0%;
   width: 50px;
-  height: 23px;
+  height: 25px;
   font-weight: bold;
   font-size: 10px;
   color: #ffffff;
@@ -141,10 +141,9 @@ a:hover {
 #menu {
   margin: 0 auto;
   padding: 0;
-  background: #0000FF no-repeat scroll left top;
-  width: 940px;
+  background: transparent url(images/menuBG.png) repeat scroll left top;
+  width: 960px;
   height: 36px;
-  border-top: 2px solid #ffffff;
 }
 #menu ul {
   margin: 0px 0px 0px 10px;
@@ -185,18 +184,19 @@ a:hover {
   width: 940px;
 }
 #content {
-  padding: 30px 5px 0px;
-  float: right;
-  width: 520px;
+  padding: 30px 50px 0px;
+  width: 840px;
+  float: center;
 }
 .post {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 .post .title {
   padding: 12px 0 0 0px;
   margin-bottom: 10px;
   letter-spacing: -0.5px;
   color: #000000;
+  text-align: center;
 }
 .post .title a {
   border:  none;
@@ -207,21 +207,19 @@ a:hover {
   margin: 0px;
   padding: 0px;
   height: 30px;
-  text-align: left;
+  text-align: center;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 13px;
   font-weight: bold;
 }
 .post .meta .date {
   padding: 3px 0px;
-  float: left;
   height: 24px;
   color: #464032;
 }
 .post .meta .posted {
   padding: 3px 15px;
   background: #C3C3F6 none repeat scroll 0%;
-  float: right;
   height: 24px;
   color: #464032;
 }
@@ -229,7 +227,7 @@ a:hover {
   color: #323246;
 }
 .post .entry {
-  padding: 0px 0px 20px;
+  padding: 0px 0px 0px;
   text-align: justify;
 }
 .links {
@@ -294,28 +292,11 @@ a:hover {
   text-decoration: underline;
   color: #8a8a8a;
 }
-#gallery{
-  text-align: center;
-}
-#calendar {
-}
-#calendar_wrap {
-  padding: 20px;
-}
-#calendar table {
-  width: 100%;
-}
-#calendar tbody td {
-  text-align: center;
-}
-#calendar #next {
-  text-align: right;
-}
 #footer {
   border-top: 4px solid #C3C3F6;
   margin: 0 auto;
   padding: 0px 0 15px;
-  width: 940px;
+  width: 960px;
   height: 50px;
   font-family: Arial,Helvetica,sans-serif;
 }
@@ -331,14 +312,21 @@ a:hover {
 #footer a {
   color: #464032;
 }
-#news ul {
+#news-wrapper{
+  margin: 0px  auto;
+  padding: 0;
+  width: 960px;
+  text-align: center;
+}
+#news-wrapper ul {
   margin: 0;
   padding: 0;
+  text-align: left;
   list-style-type: none;
   list-style-image: none;
   list-style-position: outside;
 }
-#news h2 {
+#news-wrapper h1 {
   background: #C3C3F6 none repeat scroll 0%;
   padding-left: 30px;
   padding-top: 6px;
@@ -347,21 +335,53 @@ a:hover {
   font-size: 1.8em;
   color: #464032;
 }
-#news p {
+#news-wrapper p {
   margin: 0 0px;
   padding: 10px 30px 20px;
   text-align: justify;
 }
-#news a {
+#news-wrapper a {
   border:  none;
   color: #464032;
 }
-#news a:hover {
+#news-wrapper a:hover {
   text-decoration: underline;
   color: #8a8a8a;
 }
-#news-wrapper{
-  margin: 0 auto;
+#news-wrapper li {
+  border-right: 1px solid #C3C3F6;
+  margin: 0;
   padding: 0;
-  width: 960px;
+}
+#news-wrapper li ul {
+  margin: 0px;
+  padding-bottom: 30px;
+}
+#news-wrapper li li {
+  border-right: medium none;
+  border-bottom: 1px dotted #C3C3F6;
+  margin: 0px 30px;
+  line-height: 35px;
+}
+#news-wrapper li li span {
+  padding: 0;
+  display: block;
+  margin-top: -20px;
+  font-size: 11px;
+  font-style: italic;
+}
+#botLeft {
+  float: left;
+  width: 293px;
+  padding: 0px 10px 10px 20px;
+}
+#botCenter {
+  float: left;
+  width: 293px;
+  padding: 0px 10px 10px 10px;
+}
+#botRight {
+  float: right;
+  width: 293px;
+  padding: 0px 20px 10px 10px;
 }

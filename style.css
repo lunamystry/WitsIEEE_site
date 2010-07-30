@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: transparent url(images/bodyBG.png) no-repeat scroll;
+/*  background: transparent url(images/bg.png) repeat scroll; */
   font-family: Arial,Helvetica,sans-serif;
   font-size: 12px;
   color: #333246;
@@ -41,13 +41,13 @@ a:hover {
 }
 #header {
   margin: 0 auto;
-  background: #0000FF;
-  width: 940px;
+  background: transparent url(images/headerBG.png) no-repeat scroll 0 0;
+  width: 960px;
   height: 148px;
 }
 #ieee_logo {
   margin: 0;
-  background: transparent url(images/ieeeLogo.png) no-repeat scroll 10px 40px;
+  background: transparent url(images/ieeeLogo.png) no-repeat scroll 0px 40px;
   float: right;
   padding-top:50px;
   padding-right: 250px;  
@@ -142,10 +142,9 @@ a:hover {
 #menu {
   margin: 0 auto;
   padding: 0;
-  background: #0000FF no-repeat scroll left top;
-  width: 940px;
+  background: transparent url(images/menuBG.png) repeat scroll left top;
+  width: 960px;
   height: 36px;
-  border-top: 2px solid #ffffff;
 }
 #menu ul {
   margin: 0px 0px 0px 10px;
@@ -317,7 +316,7 @@ a:hover {
   border-top: 4px solid #C3C3F6;
   margin: 0 auto;
   padding: 0px 0 15px;
-  width: 940px;
+  width: 960px;
   height: 50px;
   font-family: Arial,Helvetica,sans-serif;
 }
@@ -335,4 +334,6 @@ a:hover {
 }
 #committee{
 }
-
+iframe {
+  background: #ffffff;
+}
