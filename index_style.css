@@ -47,7 +47,7 @@ a:hover {
 }
 #ieee_logo {
   margin: 0;
-  background: transparent url(images/ieeeLogo.png) no-repeat scroll 0px 40px;
+  background: transparent url(images/ieeeLogo.jpg) no-repeat scroll 0px 40px;
   float: right;
   padding-top:50px;
   padding-right: 250px;  
@@ -56,7 +56,7 @@ a:hover {
 }
 #logo {
   margin: 0px;
-  background: transparent url(images/witsLogo.gif) no-repeat scroll 40px 10px;
+  background: transparent url(images/witsLogo2.gif) no-repeat scroll 15px 20px;
   float: left;
   padding-top: 50px;
   height: 90px;
@@ -187,6 +187,10 @@ a:hover {
   padding: 30px 50px 0px;
   width: 840px;
   float: center;
+}
+img.floatRight { 
+    float: right; 
+    margin: 25px; 
 }
 .post {
   margin-bottom: 0px;
